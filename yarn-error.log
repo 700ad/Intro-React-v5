@@ -1,8 +1,8 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.5/libexec/bin/yarn.js add @frontendmaster/pet
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.22.5/libexec/bin/yarn.js add @reach/undefined
 
 PATH: 
-  /var/folders/fp/p2nzsjz96vbfzjmt2d5j_7jh0000gn/T/yarn--1602387309166-0.36095057672240505:/Users/adeelfaryand/work/frntm/reactv5/node_modules/.bin:/Users/adeelfaryand/.config/yarn/link/node_modules/.bin:/usr/local/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/bin/node_modules/npm/bin/node-gyp-bin:/Users/adeelfaryand/.composer/vendor/bin:/Users/adeelfaryand/anaconda3/bin:/Users/adeelfaryand/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/adeelfaryand/.composer/vendor/bin:/Users/adeelfaryand/anaconda3/bin:/Users/adeelfaryand/.cargo/bin:/Users/adeelfaryand/.rvm/bin:/Users/adeelfaryand/.rvm/bin
+  /var/folders/fp/p2nzsjz96vbfzjmt2d5j_7jh0000gn/T/yarn--1602398902679-0.19382699519877344:/Users/adeelfaryand/work/frntm/reactv5/node_modules/.bin:/Users/adeelfaryand/.config/yarn/link/node_modules/.bin:/usr/local/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/bin/node_modules/npm/bin/node-gyp-bin:/Users/adeelfaryand/.composer/vendor/bin:/Users/adeelfaryand/anaconda3/bin:/Users/adeelfaryand/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/adeelfaryand/.composer/vendor/bin:/Users/adeelfaryand/anaconda3/bin:/Users/adeelfaryand/.cargo/bin:/Users/adeelfaryand/.rvm/bin:/Users/adeelfaryand/.rvm/bin
 
 Yarn version: 
   1.22.5
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@frontendmaster%2fpet: Not found
+  Error: https://registry.yarnpkg.com/@reach%2fundefined: Not found
       at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:66988:18)
       at Request.self.callback (/usr/local/Cellar/yarn/1.22.5/libexec/lib/cli.js:140749:22)
       at Request.emit (events.js:210:5)
@@ -52,7 +52,8 @@ npm manifest:
       "@frontendmasters/pet": "^1.0.3",
       "react": "^16.13.1",
       "react-dom": "^16.13.1"
-    }
+    },
+    "browserslist": ["last 2 Chrome versions"]
   }
 
 yarn manifest: 
